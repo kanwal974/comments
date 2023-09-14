@@ -1,0 +1,47 @@
+@import "./styles/color";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+p {
+  margin: 0 !important;
+}
+
+button,
+input {
+  background-color: transparent;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+
+.white-bg {
+  background-color: $color-white;
+}
+
+.blue-color {
+  color: $color-blue;
+}
+.red-color {
+  color: $color-red;
+}
+
+.main {
+  background-color: $body-background;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form {
+  background-color: $input-background;
+}
